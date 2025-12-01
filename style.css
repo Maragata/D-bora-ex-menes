@@ -1,0 +1,129 @@
+:root {
+    /* CAMBIO: Azul brillante */
+    --primary: #0066FF;      /* Azul principal */
+    --primary-dark: #0052cc; /* Azul más oscuro para el hover */
+    
+    --success: #10b981;      /* Verde para aciertos */
+    --error: #ef4444;        /* Rojo para fallos */
+    --bg: #f0f4f8;           /* Fondo gris muy azulado */
+    --card: #ffffff;
+    --text: #1f2937;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: var(--text);
+}
+
+.container {
+    background: var(--card);
+    width: 90%;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 102, 255, 0.15); /* Sombra con toques azules */
+    text-align: center;
+}
+
+.hidden { display: none !important; }
+
+h1 { color: var(--primary); margin-bottom: 1rem; }
+h2 { margin-bottom: 1.5rem; font-size: 1.25rem; }
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #6b7280;
+    font-weight: bold;
+}
+
+/* Barra de progreso */
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+#progress-fill {
+    height: 100%;
+    background-color: var(--primary);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+/* Botones */
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.primary {
+    background-color: var(--primary);
+    color: white;
+}
+.primary:hover { background-color: var(--primary-dark); }
+
+.options-grid {
+    display: grid;
+    gap: 10px;
+}
+
+.option-btn {
+    background-color: #f9fafb;
+    border: 2px solid #e5e7eb;
+    color: var(--text);
+    text-align: left;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.option-btn:hover:not(:disabled) {
+    border-color: var(--primary);
+    background-color: #e6f0ff; /* Fondo azul muy clarito al pasar el mouse */
+}
+
+.option-btn:disabled { cursor: default; }
+
+/* Estados de respuesta */
+.correct {
+    background-color: var(--success) !important;
+    border-color: var(--success) !important;
+    color: white !important;
+}
+
+.wrong {
+    background-color: var(--error) !important;
+    border-color: var(--error) !important;
+    color: white !important;
+}
+
+#feedback-area {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+#feedback-msg {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
