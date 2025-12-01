@@ -90,8 +90,8 @@ h2 { margin-bottom: 1.5rem; font-size: 1.25rem; }
 
 .option-btn {
     background-color: #f9fafb;
-    border: 2px solid #e5e7eb;
-    color: var(--text);
+    border: 2px solid #dc377d;
+    color:#131314;
     text-align: left;
     padding: 1rem;
     border-radius: 8px;
