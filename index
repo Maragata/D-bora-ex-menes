@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="icon" type="image/png" href="union.png">
-    <title>Trivia de Gestión Financiera</title>
+    <title>Trivia de Técnicas de Almacén</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div id="start-screen" class="screen">
-            <h1>Preparación Examen GPC Tema 3</h1>
+            <h1>Preparación Técnica de Almacén</h1>
             <p>Responde correctamente todas las preguntas. <br>Las preguntas incorrectas se repetirán al final de la ronda.</p>
             <button id="start-btn" class="btn primary">Comenzar</button>
         </div>
