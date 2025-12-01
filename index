@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/png" href="images/union.png">
+    <title>Trivia de Gestión Financiera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="start-screen" class="screen">
+            <h1>Preparación Examen GPC Tema 3</h1>
+            <p>Responde correctamente todas las preguntas. <br>Las preguntas incorrectas se repetirán al final de la ronda.</p>
+            <button id="start-btn" class="btn primary">Comenzar</button>
+        </div>
+
+        <div id="game-screen" class="screen hidden">
+            <div class="header-info">
+                <span id="round-indicator">Ronda 1</span>
+                <span id="progress-text">Pregunta 1 de X</span>
+            </div>
+            <div class="progress-bar">
+                <div id="progress-fill"></div>
+            </div>
+
+            <div class="question-container">
+                <h2 id="question-text">Pregunta...</h2>
+            </div>
+
+            <div id="options-container" class="options-grid">
+                </div>
+
+            <div id="feedback-area" class="hidden">
+                <p id="feedback-msg"></p>
+                <button id="next-btn" class="btn">Siguiente</button>
+            </div>
+        </div>
+
+        <div id="end-screen" class="screen hidden">
+            <h1>¡Excelente!</h1>
+            <p>Has completado todas las preguntas correctamente.</p>
+            <div class="stats">
+                <p>Repasaste errores en <span id="total-rounds"></span> rondas.</p>
+            </div>
+            <button onclick="location.reload()" class="btn primary">Reiniciar</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
