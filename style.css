@@ -1,13 +1,17 @@
 :root {
-    /* CAMBIO: Azul brillante */
-    --primary: #0066FF;      /* Azul principal */
-    --primary-dark: #0052cc; /* Azul más oscuro para el hover */
+  /*  Tema Oscuro Neon */
+    --primary: #3B82F6;      /* Azul eléctrico */
+    --primary-dark: #2563EB; 
     
-    --success: #10b981;      /* Verde para aciertos */
-    --error: #ef4444;        /* Rojo para fallos */
-    --bg: #f0f4f8;           /* Fondo gris muy azulado */
-    --card: #ffffff;
-    --text: #1f2937;
+    /* Botón NEXT diferenciado (Rosa Neón) */
+    --btn-next: #EC4899;     
+    --btn-next-hover: #DB2777;
+
+    --success: #10B981;      
+    --error: #EF4444;        
+    --bg: #0F172A;           /* Azul noche muy oscuro */
+    --card: #1E293B;         /* Gris azulado oscuro */
+    --text: #F8FAFC;         /* Texto blanco */
 }
 
 body {
