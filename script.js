@@ -3,184 +3,66 @@
    =========================================== */
 const fullQuestionBank = [
   {
-      question: "¿Qué significa descontar un efecto comercial?",
-      options: ["Pedir un anticipo al banco*", "Cobrarlo después de la fecha", "Aplazar su pago", "Cancelarlo antes de tiempo"]
+      question: "¿Cuál es una de las principales desventajas de la comunicación telefónica?",
+      options: ["Es más lenta que el correo.", "Es más fría que la comunicación cara a cara.*", "No permite la comunicación verbal.", "Tiene un coste de desplazamiento muy alto."]
   },
   {
-      question: "Para calcular el capital final según la ley de la capitalización simple tenemos que…",
-      options: ["Sumar los intereses totales al capital inicial.*", "Restar los intereses totales al capital inicial.", "Multiplicar el tipo de interés por el capital final.", "Multiplicar el tipo de interés por el plazo."]
+      question: "En la expresión verbal al teléfono, para ser 'concisos' debemos...",
+      options: ["Usar tecnicismos complejos.", "Ser directos y breves.*", "Hablar muy rápido.", "Contar historias detalladas."]
   },
   {
-      question: "Cuando hablamos de un aplazamiento en el pago que un proveedor concede a una empresa estamos hablando de…",
-      options: ["Descuento de efectos comerciales", "Confirming", "Crédito comercial*", "Crédito bancario"]
+      question: "¿Qué elemento no verbal es fundamental mantener al teléfono porque se percibe en la voz?",
+      options: ["La sonrisa telefónica.*", "El contacto visual.", "Los gestos con las manos.", "La ropa de trabajo."]
   },
   {
-      question: "Las fuentes de financiación a corto plazo son aquellas que cubren necesidades de pago con un plazo de…",
-      options: ["Menos de 1 mes", "Menos de 6 meses", "Menos de 1 año*", "Menos de 2 años"]
+      question: "¿Cuál es el momento más importante de una llamada para conseguir el objetivo?",
+      options: ["La presentación.", "El desarrollo.", "El cierre.*", "La despedida."]
   },
   {
-      question: "Un crédito bancario es…",
-      options: [
-          "Un préstamo de una cantidad de monetaria que debe devolverse después de un plazo.",
-          "Un aplazamiento en el pago a un proveedor.",
-          "Un anticipo de un cobro a clientes.",
-          "Un servicio financiero donde la empresa dispone de una cantidad máxima y paga intereses solo por lo que usa.*"
-      ]
+      question: "Al recibir una llamada, ¿cuándo se debe descolgar el teléfono?",
+      options: ["Inmediatamente al primer tono.", "Antes del tercer tono.*", "Después del quinto tono.", "Cuando terminemos lo que estamos haciendo."]
   },
   {
-      question: "Los cheques y pagarés son ejemplos de efectos comerciales.",
-      options: ["Verdadero*", "Falso"]
+      question: "¿Cuál es el tiempo máximo recomendado para mantener a un interlocutor en espera?",
+      options: ["1 minuto.", "30 segundos.*", "2 minutos.", "No hay límite si la música es agradable."]
   },
   {
-      question: "Cuanto menor sea el tipo de interés, más costoso será para una empresa obtener financiación.",
-      options: ["Verdadero", "Falso*"]
+      question: "Si estamos atendiendo una visita presencial y suena el teléfono, ¿qué tiene preferencia?",
+      options: ["La llamada telefónica siempre.", "La visita presencial, salvo urgencia.*", "Ninguna, se deben atender a la vez.", "El teléfono, porque es más rápido."]
   },
   {
-      question: "Cuando hablamos de que una empresa tiene la opción de pagar en el momento con un descuento o aplazar el pago a un proveedor nos referimos a…",
-      options: ["Descuento de efectos comerciales*", "Crédito comercial", "Crédito bancario", "Factoring"]
+      question: "En el protocolo telefónico, si no hay relación de amistad o confianza, debemos tratar al interlocutor de...",
+      options: ["Tú.", "Colega.", "Usted.*", "Nombre de pila."]
   },
   {
-      question: "¿Qué es un efecto comercial?",
-      options: ["Un préstamo a largo plazo.", "Un descuento financiero", "Un documento que contiene una promesa de pago.*", "Una factura pagada al contado"]
+      question: "La atención telefónica proactiva es aquella en la que...",
+      options: ["El cliente llama a la empresa.", "La empresa llama al cliente.*", "Se usa un contestador automático.", "Se responde por WhatsApp."]
   },
   {
-      question: "Dos maneras de obtener financiación son adelantar pagos y aplazar cobros.",
-      options: ["Verdadero", "Falso*"]
+      question: "Al tomar un mensaje para otra persona, ¿qué datos son imprescindibles?",
+      options: ["Solo el nombre de quien llama.", "La edad y dirección del llamante.", "Nombre, empresa, teléfono, motivo, fecha y hora.*", "Solo el número de teléfono."]
   },
   {
-      question: "¿Qué es la financiación de una empresa?",
-      options: ["El dinero que gana la empresa al vender", "La obtención de recursos financieros*", "Los gastos que paga la empresa", "El beneficio anual obtenido"]
+      question: "Ante un cliente difícil que grita, lo primero que debemos hacer es...",
+      options: ["Gritar más fuerte para imponernos.", "Colgar inmediatamente.", "Mantener la calma.*", "Pasarle la llamada a un compañero."]
   },
   {
-      question: "¿Qué es una fuente de financiación?",
-      options: ["El lugar donde se guarda el dinero", "Una opción para obtener recursos económicos*", "Un préstamo sin intereses.", "Un gasto financiero"]
+      question: "Un 'Contact Center' se diferencia de un 'Call Center' tradicional en que...",
+      options: ["Solo atiende llamadas de voz.", "Integra diversos canales como email, WhatsApp y redes sociales.*", "Es más pequeño y local.", "No utiliza ordenadores."]
   },
   {
-      question: "¿Para qué se usa la financiación a corto plazo?",
-      options: ["Para comprar maquinaria pesada.", "Para pagar gastos inmediatos.*", "Para adquirir locales comerciales.", "Para abrir una nueva tienda."]
+      question: "Al hablar por teléfono se pierde la referencia visual, lo que exige...",
+      options: ["Hablar más alto.", "Que el mensaje sea más preciso y completo.*", "Usar muchas pausas.", "Evitar mencionar el nombre de la empresa."]
   },
   {
-      question: "¿Qué es el crédito comercial?",
-      options: ["Un préstamo entre amigos", "Una subvención pública", "Una cuenta de ahorro empresarial", "Un aplazamiento del pago concedido por el proveedor*"]
+      question: "Para evitar errores al tomar notas durante una llamada, debemos aplicar...",
+      options: ["La escucha activa.*", "La intuición.", "La rapidez.", "El uso de grabadoras sin avisar."]
   },
   {
-      question: "¿Qué es una póliza de crédito?",
-      options: ["Un contrato de alquiler de local", "Un seguro de crédito comercial", "Una cuenta corriente donde el banco pone dinero a disposición de la empresa*", "Una ayuda a fondo perdido"]
-  },
-  {
-      question: "En una póliza de crédito, los intereses se pagan...",
-      options: ["Solo por el dinero realmente usado*", "Por todo el crédito concedido", "Solo al final del año", "Nunca"]
-  },
-  {
-      question: "¿Qué es el 'efectivo' en un descuento comercial?",
-      options: ["El dinero que adelanta el banco*", "El valor total del préstamo", "La deuda final", "La comisión pagada"]
-  },
-  {
-      question: "¿Qué es el factoring?",
-      options: ["Un contrato de alquiler de maquinaria", "Un préstamo hipotecario", "Un servicio financiero que gestiona el cobro a clientes*", "Una forma de crowdfunding"]
-  },
-  {
-      question: "¿Qué es un préstamo bancario?",
-      options: ["Una ayuda sin devolución", "Una cuenta corriente con comisiones", "Un pago por adelantado", "Un contrato donde el banco presta dinero y cobra intereses a cambio*"]
-  },
-  {
-      question: "¿Qué es el leasing?",
-      options: ["Alquiler con opción a compra*", "Compra directa", "Préstamo sin intereses", "Renting de locales"]
-  },
-  {
-      question: "¿Qué es el renting?",
-      options: ["Alquiler con opción a compra", "Compra directa", "Alquiler sin opción a compra*", "Compra aplazada"]
-  },
-  {
-      question: "¿Qué es un business angel?",
-      options: ["Un préstamo bancario", "Un inversor privado que aporta dinero y asesoramiento*", "Una sociedad anónima", "Un banco público"]
-  },
-  {
-      question: "¿Qué es el crowdfunding?",
-      options: ["Financiación colectiva a través de Internet*", "Un tipo de crédito a corto plazo", "Un contrato de leasing", "Una póliza de seguros"]
-  },
-  {
-      question: "El tipo de interés que va cambiando con el tiempo y suele ir ligado al Euríbor es el interes…",
-      options: ["Pendiente", "Fijo", "Permanente", "Variable*"]
-  },
-  {
-      question: "Una anualidad en un préstamo es…",
-      options: ["El precio del dinero.", "La cantidad de dinero que se paga cada mes para devolver el préstamo.*", "El periodo de tiempo del banco.", "El capital descontado."]
-  },
-  {
-      question: "¿Qué tipo de préstamo solemos usar en España?",
-      options: ["Préstamo francés*", "Préstamo alemán", "Préstamo español", "Préstamo simple"]
-  },
-  {
-      question: "La anualidad que pagamos al devolver un préstamo está formada por…",
-      options: ["El interés más la cuota de amortización*", "El periodo de tiempo por el interés.", "El tipo de interés por el capital.", "El capital inicial menos el final."]
-  },
-  {
-      question: "El contrato de leasing consiste en ceder un bien en régimen de alquiler con opción a compra.",
-      options: ["Verdadero*", "Falso"]
-  },
-  {
-      question: "Los contratos de renting no suelen incluir servicios adicionales como el mantenimiento.",
-      options: ["Verdadero*", "Falso"]
-  },
-  {
-      question: "Los contratos de renting suelen tener una duración de…",
-      options: ["12 meses", "5 años", "10 años", "2 años*"]
-  },
-  {
-      question: "Dentro del activo no corriente de la empresa se incluye…",
-      options: ["Existencias iniciales", "Tesorería", "Edificios y construcciones*", "Dinero efectivo inicial"]
-  },
-  {
-      question: "Los equipos informáticos deben ser incluidos en el plan de inversiones iniciales.",
-      options: ["Verdadero*", "Falso"]
-  },
-  {
-      question: "En un contrato de seguro la aseguradora es la empresa que se encarga de subsanar los daños ocasionados.",
-      options: ["Verdadero*", "Falso"]
-  },
-  {
-      question: "En un contrato de seguro, la persona que contrata el servicio y paga una tarifa se llama…",
-      options: ["Tomador del seguro*", "Asegurador", "Cliente protegido", "Ninguna de las anteriores"]
-  },
-  {
-      question: "Algunas de las ventajas de alquilar un local frente a comprarlo son…",
-      options: ["Es muy flexible, ya que permite cambiar de ubicación sin problemas.*", "Menos responsabilidades.", "No vinculado a hipoteca.", "Todas las anteriores."]
-  },
-  {
-      question: "Uno de los inconvenientes de alquilar un local frente a comprarlo es que…",
-      options: ["No supone un activo para la empresa.*", "Es una opción muy flexible.", "Es una inversión a largo plazo.", "No eres responsable de las reparaciones."]
-  },
-  {
-      question: "Una póliza de seguro es un contrato entre un prestamista y un prestatario.",
-      options: ["Verdadero", "Falso*"]
-  },
-  {
-      question: "El crédito comercial consiste en aplazar los pagos con los _________ del comercio.",
-      options: ["Clientes", "Proveedores*", "Bancos", "Inversores"]
-  },
-  {
-      question: "En la capitalización simple, los intereses se calculan únicamente sobre el ________ inicial.",
-      options: ["Capital*", "Tiempo", "Riesgo", "Coste"]
-  },
-  {
-      question: "El leasing es un alquiler de bienes con opción de _______.",
-      options: ["Venta inmediata", "Reventa", "Compra*", "Devolución con coste"]
-  },
-  {
-      question: "El préstamo bancario suele devolverse mediante cuotas periódicas llamadas____.",
-      options: ["Márgenes", "Anualidades*", "Primas", "Dividendos"]
-  },
-  {
-      question: "La póliza de seguros obliga al tomador a pagar una cantidad periódica llamada ______.",
-      options: ["Tasa", "Canon", "Prima*", "Interés"]
-  },
-  {
-      question: "Las fuentes de financiación propias son aquellas que pertenecen a la empresa y no necesitan ser _______.",
-      options: ["Declaradas", "Amortizadas", "Devueltas*", "Negociadas"]
+      question: "Si tenemos dudas sobre cómo resolver el problema de un cliente difícil, debemos...",
+      options: ["Inventarnos una solución rápida.", "Prometer algo aunque no podamos cumplirlo.", "Tomar nota y prometer llamar tras consultarlo.*", "Decirle que no tiene solución."]
   }
 ];
-
 /* =========================================
    LÓGICA DEL JUEGO
    ========================================= */
